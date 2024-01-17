@@ -19,43 +19,43 @@ def enter_move(board):
         if not ok:
             print("Not a correct move - repeat your move")
             continue
-        move = int(move) - 1
-        row = move // 3
-        column = move % 3
-        sign = board[row][column]
+        move = int(move) - 1 # cells number from 0 to 8
+        row = move // 3      # cells row
+        column = move % 3    # cells column
+        sign = board[row][column]  # check the selected square
         ok = sign not in ['O', 'X']
-        if not ok:
+        if not ok:  # its occupied to the input again
             print("field already occupied")
             continue
-        board[row][column] = 'O'
+        board[row][column] = 'O'   # set 'O' at the selected square
 
 
 def make_list_of_free_fields(board):
     free = []
-    for row in range(3):
-        for column in range(3):
+    for row in range(3):        # rows
+        for column in range(3): # columns
             if board[row][column] not in ['O', 'X']:
                 free.append((row, column))
         return free
 
 
 def victory_for(board, sign):
-    if sign == 'X':
-        who = 'me'
-    elif sign == 'O':
-        who = 'you'
+    if sign == 'X':   # looking for 'X'
+        who = 'me'    # its computer side
+    elif sign == 'O': # for O
+        who = 'you'   # its user side
     else:
         who = None
 
-    cross1 = cross2 = True
+    cross1 = cross2 = True # for diagonals
     for rc in range(3):
-        if board[rc][0] == sign and board[rc][1] == sign and board[rc][2] == sign:
+        if board[rc][0] == sign and board[rc][1] == sign and board[rc][2] == sign: # row rc
             return who
-        if board[0][rc] == sign and board[1][rc] == sign and board[2][rc] == sign:
+        if board[0][rc] == sign and board[1][rc] == sign and board[2][rc] == sign: # column rc
             return who
-        if board[rc][rc] != sign:
+        if board[rc][rc] != sign: #check 1st diagonal
             cross1 = False
-        if board[2 - rc][2 - rc] != sign:
+        if board[2 - rc][2 - rc] != sign:  # 2nd diagonal
             cross2 = False
     if cross1 or cross2:
         return who
