@@ -2,7 +2,7 @@
 TIC-TAC-TOE Game development in python language.
 A Simple program which pretend to play TIC-TAC-TOE with the user and the computer
 
------------------( GAME SCENARIO )--------------------
+---------------------------------------------------------( GAME SCENARIO )----------------------------------------------
 
 The computer (i.e., your program) should play the game using 'X'.
 The user (e.g., you) should play the game using 'O'.
