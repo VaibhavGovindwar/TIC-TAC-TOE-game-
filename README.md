@@ -1,22 +1,22 @@
-**Tic-Tac-Toe Game: User vs. Computer**
+# **Tic-Tac-Toe Game: User vs. Computer**
 
-**Project Overview**
+# **Project Overview**
 This is a Python implementation of the classic Tic-Tac-Toe game where the user competes against the computer. The computer always plays with 'X' and makes its first move in the center of the board. The user plays with 'O' and selects moves by inputting the square number (1-9). The game includes proper input validation and ensures fair play by avoiding occupied squares. After each move, the game checks for a winner, a tie, or continues until the board is full.
 
-**Features**
+# **Features**
 1. Simple User Input: Players select their move by entering a number between 1 and 9.
 2. Random Computer Moves: The computer selects its moves randomly after the initial center position.
 3. Game Outcome Check: The game checks for a win, tie, or continuation after every move.
 4. Error Handling: Ensures user input is valid and prevents overwriting occupied squares.
 
-**Game Rules**
+# **Game Rules**
 1. The computer always plays as 'X' and starts in the center.
 2. The user plays as 'O' and chooses a move by selecting the corresponding square.
 3. The game continues until there is a winner or the board is full (resulting in a tie).
 4. The player or computer wins when they have three symbols in a row (horizontally, vertically, or diagonally).
 
-**Screenshots**
-. Here are some screenshots of the game in action:
+# **Screenshots**
+> Here are some screenshots of the game in action:
 
 1. ![Screenshot 2024-10-21 185952](https://github.com/user-attachments/assets/65aa0a3f-f7f8-4b1b-af56-03c2f586bb03)
 2. ![Screenshot 2024-10-21 190046](https://github.com/user-attachments/assets/f47e53b4-005a-4182-88e6-8e4b38a90466)
@@ -27,10 +27,10 @@ This is a Python implementation of the classic Tic-Tac-Toe game where the user c
 
 
 **Future Improvements**
-.Add a graphical interface for an enhanced user experience.
+> Add a graphical interface for an enhanced user experience.
 
 **Technologies Used**
-.Python: The game logic is implemented using basic Python.
+> Python: The game logic is implemented using basic Python.
 
 **Contributing**
-.Feel free to fork this repository and submit pull requests for enhancements or bug fixes!
+> Feel free to fork this repository and submit pull requests for enhancements or bug fixes!
