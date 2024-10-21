@@ -1,19 +1,19 @@
 **Tic-Tac-Toe Game: User vs. Computer**
 
 **Project Overview**
-> This is a Python implementation of the classic Tic-Tac-Toe game where the user competes against the computer. The computer always plays with 'X' and makes its first move in the center of the board. The user plays with 'O' and selects moves by inputting the square number (1-9). The game includes proper input validation and ensures fair play by avoiding occupied squares. After each move, the game checks for a winner, a tie, or continues until the board is full.
+This is a Python implementation of the classic Tic-Tac-Toe game where the user competes against the computer. The computer always plays with 'X' and makes its first move in the center of the board. The user plays with 'O' and selects moves by inputting the square number (1-9). The game includes proper input validation and ensures fair play by avoiding occupied squares. After each move, the game checks for a winner, a tie, or continues until the board is full.
 
 **Features**
-> Simple User Input: Players select their move by entering a number between 1 and 9.
-> Random Computer Moves: The computer selects its moves randomly after the initial center position.
-> Game Outcome Check: The game checks for a win, tie, or continuation after every move.
-> Error Handling: Ensures user input is valid and prevents overwriting occupied squares.
+1. Simple User Input: Players select their move by entering a number between 1 and 9.
+2. Random Computer Moves: The computer selects its moves randomly after the initial center position.
+3. Game Outcome Check: The game checks for a win, tie, or continuation after every move.
+4. Error Handling: Ensures user input is valid and prevents overwriting occupied squares.
 
 **Game Rules**
-> The computer always plays as 'X' and starts in the center.
-> The user plays as 'O' and chooses a move by selecting the corresponding square.
-> The game continues until there is a winner or the board is full (resulting in a tie).
-> The player or computer wins when they have three symbols in a row (horizontally, vertically, or diagonally).
+1. The computer always plays as 'X' and starts in the center.
+2. The user plays as 'O' and chooses a move by selecting the corresponding square.
+3. The game continues until there is a winner or the board is full (resulting in a tie).
+4. The player or computer wins when they have three symbols in a row (horizontally, vertically, or diagonally).
 
 **Screenshots**
 Here are some screenshots of the game in action:
@@ -27,10 +27,10 @@ Here are some screenshots of the game in action:
 
 
 **Future Improvements**
-> Add a graphical interface for an enhanced user experience.
+Add a graphical interface for an enhanced user experience.
 
 **Technologies Used**
-> Python: The game logic is implemented using basic Python.
+Python: The game logic is implemented using basic Python.
 
 **Contributing**
 Feel free to fork this repository and submit pull requests for enhancements or bug fixes!
