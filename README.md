@@ -16,7 +16,7 @@ This is a Python implementation of the classic Tic-Tac-Toe game where the user c
 4. The player or computer wins when they have three symbols in a row (horizontally, vertically, or diagonally).
 
 **Screenshots**
-Here are some screenshots of the game in action:
+. Here are some screenshots of the game in action:
 
 1. ![Screenshot 2024-10-21 185952](https://github.com/user-attachments/assets/65aa0a3f-f7f8-4b1b-af56-03c2f586bb03)
 2. ![Screenshot 2024-10-21 190046](https://github.com/user-attachments/assets/f47e53b4-005a-4182-88e6-8e4b38a90466)
@@ -27,10 +27,10 @@ Here are some screenshots of the game in action:
 
 
 **Future Improvements**
-Add a graphical interface for an enhanced user experience.
+.Add a graphical interface for an enhanced user experience.
 
 **Technologies Used**
-Python: The game logic is implemented using basic Python.
+.Python: The game logic is implemented using basic Python.
 
 **Contributing**
-Feel free to fork this repository and submit pull requests for enhancements or bug fixes!
+.Feel free to fork this repository and submit pull requests for enhancements or bug fixes!
