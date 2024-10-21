@@ -18,11 +18,11 @@ This is a Python implementation of the classic Tic-Tac-Toe game where the user c
 # **Screenshots**
 > Here are some screenshots of the game in action:
 
-1. ![Screenshot 2024-10-21 185952](https://github.com/user-attachments/assets/65aa0a3f-f7f8-4b1b-af56-03c2f586bb03)
-2. ![Screenshot 2024-10-21 190046](https://github.com/user-attachments/assets/f47e53b4-005a-4182-88e6-8e4b38a90466)
-3. ![Screenshot 2024-10-21 190046](https://github.com/user-attachments/assets/a31cf56c-ccda-44f9-8132-8889b3b62851)
-4. ![Screenshot 2024-10-21 190127](https://github.com/user-attachments/assets/f61edb10-4ab6-4223-a50b-515e933b409a)
-5. ![Screenshot 2024-10-21 190202](https://github.com/user-attachments/assets/54218894-1085-42b1-9da9-7c376c395a66)
+1. > ![Screenshot 2024-10-21 185952](https://github.com/user-attachments/assets/65aa0a3f-f7f8-4b1b-af56-03c2f586bb03)
+2. > ![Screenshot 2024-10-21 190046](https://github.com/user-attachments/assets/f47e53b4-005a-4182-88e6-8e4b38a90466)
+3. > ![Screenshot 2024-10-21 190046](https://github.com/user-attachments/assets/a31cf56c-ccda-44f9-8132-8889b3b62851)
+4. > ![Screenshot 2024-10-21 190127](https://github.com/user-attachments/assets/f61edb10-4ab6-4223-a50b-515e933b409a)
+5. > ![Screenshot 2024-10-21 190202](https://github.com/user-attachments/assets/54218894-1085-42b1-9da9-7c376c395a66)
 
 
 
